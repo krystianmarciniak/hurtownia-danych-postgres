@@ -1,0 +1,52 @@
+﻿Column2;Column3;Column4;Column5
+nazwa;parametr;cena_brutto;id_kategoria
+Intel Core i5;3.5GHz;800;1
+ASUS PRIME B450;AM4;400;2
+Kingston DDR4;8GB 3200MHz;300;3
+WD Blue SSD;1TB;500;4
+Dell UltraSharp U2723QE;"27"" 4K UHD";2000;5
+LG 27GP850-B;"27"" QHD 165Hz";1800;5
+Samsung Smart Monitor M8;"32"" 4K UHD";2500;5
+ASUS ROG Swift PG32UQX;"32"" 4K 144Hz";10000;5
+Dell XPS 15;"15.6"" 4K UHD, i7-12700H, 16GB RAM, 512GB SSD";9000;6
+Apple MacBook Pro;"16"" M2 Pro, 16GB RAM, 1TB SSD";13000;6
+HP Pavilion 15;"15.6"" FHD, Ryzen 5 5600H, 8GB RAM, 256GB SSD";3500;6
+Lenovo ThinkPad X1 Carbon;"14"" WUXGA, i5-1240P, 16GB RAM, 512GB SSD";8500;6
+Kingston FURY Beast;16GB DDR4 3200MHz;350;7
+Corsair Vengeance RGB Pro;32GB DDR4 3600MHz;800;7
+G.SKILL Trident Z Neo;16GB DDR4 3600MHz;450;7
+Crucial Ballistix;8GB DDR4 3000MHz;200;7
+NVIDIA GeForce RTX 4090;24GB GDDR6X;8500;12
+AMD Radeon RX 7900 XT;20GB GDDR6;6000;12
+NVIDIA GeForce RTX 3060;12GB GDDR6;1800;12
+AMD Radeon RX 6600 XT;8GB GDDR6;1500;12
+MSI MAG B550 TOMAHAWK;AM4 ATX DDR4;650;2
+ASUS ROG STRIX Z690-A;LGA1700 ATX DDR5;1300;2
+Gigabyte B450M DS3H;AM4 Micro-ATX DDR4;400;2
+ASRock Z590 Extreme;LGA1200 ATX DDR4;850;2
+Kingston FURY Beast;DDR4 16GB 3200MHz;300;3
+Corsair Vengeance LPX;DDR4 32GB 3600MHz;600;3
+G.SKILL Trident Z Neo;DDR4 64GB 4000MHz;1200;3
+Crucial Ballistix;DDR4 8GB 3000MHz;200;3
+Intel Core i5-13600K;3.5GHz, 14-Core;1400;1
+AMD Ryzen 5 7600X;4.7GHz, 6-Core;1200;1
+Intel Core i7-13700K;3.4GHz, 16-Core;1900;1
+AMD Ryzen 9 7900X;4.7GHz, 12-Core;2200;1
+LG GP70NS50;Zewnętrzny DVD RW;150;14
+Asus BW-16D1HT;Blu-ray Writer 16x;500;14
+Pioneer BDR-XS07S;Zewnętrzny Blu-ray 6x;800;14
+Lite-On iHAS124;Wewnętrzny DVD RW;100;14
+Logitech MX Keys;Bezprzewodowa, podświetlana;400;17
+Razer BlackWidow V3;Mechaniczna, RGB;500;17
+SteelSeries Apex Pro;Mechaniczna, podświetlana;800;17
+Corsair K70 RGB MK.2;Mechaniczna, RGB;600;17
+TP-Link Archer AX50;Dual Band AX3000;450;22
+Asus RT-AX86U;Dual Band AX5700;950;22
+Netgear Nighthawk RAX50;Dual Band AX5400;800;22
+Xiaomi Mi AIoT Router AX3600;Dual Band AX3600;600;22
+TP-Link Archer T4U;AC1200, USB 3.0;120;23
+ASUS PCE-AX58BT;WiFi 6, PCIe;350;23
+Intel Ethernet I225-T1;2.5GbE, PCIe;300;23
+Realtek RTL8153;USB 3.0, Gigabit;80;23
+Canon CanoScan LiDE 400;4800x4800 DPI;500;27
+Epson Perfection V600;6400x9600 DPI;1200;27

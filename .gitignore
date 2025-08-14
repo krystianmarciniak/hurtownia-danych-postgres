@@ -1,0 +1,17 @@
+# System
+.DS_Store
+Thumbs.db
+
+# IDE / edytory
+.vscode/
+.idea/
+
+# Sekrety i zmienne środowiskowe
+.env
+*.env
+
+# Dane pełne (nie publikować)
+*_full.csv
+
+# Pliki tymczasowe
+/tmp/
