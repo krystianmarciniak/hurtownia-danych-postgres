@@ -13,3 +13,8 @@ Repozytorium zawiera:
 2. Wgraj schemat:
    ```bash
    psql -h localhost -U postgres -d hurtownia -f schema/000_init.sql
+
+   Raport: Przychód miesięczny
+Źródła: fakt_zamowienie, dim_czas
+Cel: Analiza trendu przychodów w czasie
+Plik SQL: /raporty_sql/przychod_miesieczny.sql
