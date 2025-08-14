@@ -109,5 +109,22 @@ Plik: [`sql/reports/top10_klientow.sql`](sql/reports/top10_klientow.sql)
        LC_COLLATE = 'pl_PL'
        LC_CTYPE = 'pl_PL'
        TEMPLATE template0;
-duje się w pliku:
+   
+2. Załaduj schemat:
+
+psql -U postgres -d hurtownia -f schema/hurtownia.sql
+
+3. Uruchom job load_hd_job.kjb w Pentaho, aby załadować dane z CSV.
+
+4. Wykonaj zapytania z folderu sql/reports/, aby wygenerować raporty.
+
+
+8️ Autor
+
+Krystian Marciniak
+
+
+9️ Źródła i dokumentacja
+
+Pełna dokumentacja znajduje się w pliku:
 Dokumentacja Hurtownia danych.pdf
