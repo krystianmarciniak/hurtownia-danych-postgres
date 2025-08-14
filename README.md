@@ -16,6 +16,9 @@ Celem projektu jest stworzenie hurtowni danych na podstawie plików CSV, obejmuj
 
 ## 2️ Struktura repozytorium
 
+
+
+## 2️ Struktura repozytorium
 ├── docs/
 │ └── screenshots/ # Zrzuty ekranu z działania projektu
 ├── etl/ # Pliki ETL Pentaho (.ktr, .kjb)
@@ -30,6 +33,9 @@ Celem projektu jest stworzenie hurtowni danych na podstawie plików CSV, obejmuj
 
 ---
 
+
+---
+
 ## 3️ Model danych
 
 Schemat hurtowni składa się z:
@@ -40,7 +46,7 @@ Schemat hurtowni składa się z:
 - **dim_czas** – wymiar czasu
 - **fakt_zamowienie** – tabela faktów z zamówieniami
 
-![Model ETL](Load_Job.png)
+![Model ETL](docs/screenshots/Load_Job.png)
 
 ---
 
@@ -54,7 +60,7 @@ Schemat hurtowni składa się z:
   4. dim_klient
   5. fakt_zamowienie
 
-![Transformacje](Transformacje%201.png)
+![Transformacje](docs/screenshots/Transformacje%201.png)
 
 ---
 
@@ -64,7 +70,7 @@ Schemat hurtowni składa się z:
 Analiza sumarycznej wartości zamówień zrealizowanych w danym roku i miesiącu.
 
 Plik: [`sql/reports/przychod_miesieczny.sql`](sql/reports/przychod_miesieczny.sql)  
-![Przychód miesięczny](przychod_miesieczny.png)
+![Przychód miesięczny](docs/screenshots/przychod_miesieczny.png)
 
 ---
 
@@ -72,7 +78,7 @@ Plik: [`sql/reports/przychod_miesieczny.sql`](sql/reports/przychod_miesieczny.sq
 Ranking kategorii produktów według łącznego przychodu.
 
 Plik: [`sql/reports/sprzedaz_wg_kategorii.sql`](sql/reports/sprzedaz_wg_kategorii.sql)  
-![Analiza dochodowości](Analiza_dochodowosci.png)
+![Analiza dochodowości](docs/screenshots/Analiza_dochodowosci.png)
 
 ---
 
@@ -80,7 +86,7 @@ Plik: [`sql/reports/sprzedaz_wg_kategorii.sql`](sql/reports/sprzedaz_wg_kategori
 Lista dziesięciu klientów o najwyższej łącznej wartości zamówień.
 
 Plik: [`sql/reports/top10_klientow.sql`](sql/reports/top10_klientow.sql)  
-![Top 10 klientów](Top_10_klientow.png)
+![Top 10 klientów](docs/screenshots/Top_10_klientow.png)
 
 ---
 
@@ -103,21 +109,5 @@ Plik: [`sql/reports/top10_klientow.sql`](sql/reports/top10_klientow.sql)
        LC_COLLATE = 'pl_PL'
        LC_CTYPE = 'pl_PL'
        TEMPLATE template0;
-
-Załaduj schemat:
-
-psql -U postgres -d hurtownia -f schema/hurtownia.sql
-
-
-Uruchom job load_hd_job.kjb w Pentaho, aby załadować dane z CSV.
-
-Wykonaj zapytania z folderu sql/reports/, aby wygenerować raporty.
-
-8️ Autor
-
-Krystian Marciniak
-
-9️ Źródła i dokumentacja
-
-Pełna dokumentacja znajduje się w pliku:
+duje się w pliku:
 Dokumentacja Hurtownia danych.pdf
